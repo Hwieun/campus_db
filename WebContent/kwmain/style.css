@@ -1,0 +1,73 @@
+@CHARSET "utf-8";
+
+body {
+	margin-right: 45px;
+}
+
+.grid {
+	margin-top: 25px;
+	margin-left: 60px;
+	display: grid;
+	grid-template-columns: 200px 3fr 1fr;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	font-size: 22px;
+}
+
+#campus {
+	border: 20px solid white;
+	text-align: right;
+}
+
+#life {
+	text-align: center;
+	border: 20px solid white;
+}
+
+#wrapper {
+	display: grid;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#sliderbutton {
+	float: right;
+	display: grid;
+	grid-template-columns: 1fr 5px 1fr;
+	opacity: 0.5;
+	padding-right: 5px;
+	position: relative;
+	padding-top: 540px;
+}
+
+#sliderbutton img {
+	cursor: pointer
+}
+
+#slider {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	overflow: 0 auto;
+}
+
+#slider ul {
+	width: 100%;
+	height: auto;
+	position: relative;
+	list-style: none;
+}
+
+#slider li {
+	float: left;
+	padding-right: 50px
+}
+
+.pagination {
+	list-style: none
+}
